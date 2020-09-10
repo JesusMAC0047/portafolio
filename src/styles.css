@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+body{
+    background: url('assets/img/Made-in-abyss.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#global{
+    width: 70%;
+    min-height: 530px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#logo{
+    font-family: serif, Verdana, Tahoma, sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 75px;
+}
+
+#menu{
+    font-family: helvetica, arial;
+    background: rgba(16, 126, 160, 0.8);
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer{
+    font-family: helvetica,Arial;
+    color: white;
+    text-align: center;
+    height: 47px;
+    background: rgba(16, 126, 160, 0.8);
+    margin: 0px auto;
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 47px;
+    border-radius: 0px 0px 20px 20px;
+}
