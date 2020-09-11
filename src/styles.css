@@ -65,6 +65,13 @@ body{
     padding-right: 30px;
 }
 
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 footer{
     font-family: helvetica,Arial;
     color: white;
