@@ -8,6 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ErrorComponent } from './components/error/error.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TimeComponent } from './components/time/time.component';
+import { ProgrammingComponent } from './components/programming/programming.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TimeComponent } from './components/time/time.component';
     ProjectsComponent,
     ErrorComponent,
     ContactComponent,
-    TimeComponent
+    TimeComponent,
+    ProgrammingComponent
   ],
   imports: [
     BrowserModule,
