@@ -15,6 +15,29 @@ body{
     background-size: cover;
 }
 
+h1{
+    text-transform: uppercase;
+    font-family: Helvetica, Arial;
+    font-size: 40px;
+    text-align: center;
+    color: #15a9d6;
+    padding-bottom: 10px;
+}
+
+hr{
+    border: 1px solid greenyellow;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: Helvetica, Arial;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+}
+
 #global{
     width: 70%;
     min-height: 530px;
@@ -42,7 +65,7 @@ body{
     background: rgba(16, 126, 160, 0.8);
     width: 100%;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -68,8 +91,17 @@ body{
 .time{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.about-me{
+    display: block;
+    justify-content: center;
+    background-color: rgba(98, 109, 112, 0.8);
+    border-radius: 40px;
+    padding-top: 0px;
+    padding: 25px;
 }
 
 footer{

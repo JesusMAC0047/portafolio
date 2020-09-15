@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@font-face{
+    font-family: ds-digi;
+    src: url(../../../assets/fonts/DS-DIGI.TTF);
+}
+
+@font-face{
+    font-family: linebeam;
+    src: url(../../../assets/fonts/Linebeam.ttf);
+}
+
 p{
-    font-family: 'Press Start 2P', cursive;
+    font-family: ds-digi, linebeam, 'Press Start 2P', cursive;
     color: greenyellow;
-    font-size: 15px;
-    background-color: rgba(98, 109, 112, 0.5);
-    border-radius: 50px 50px 50px 50px;
-    padding: 10px;
+    font-size: 30px;
     text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(98, 109, 112, 0.75);
+    padding: 15px;
 }
