@@ -1,0 +1,29 @@
+.table{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-color: red;
+    text-align: center;
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+}
+
+.titleTable{
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+.itemTable{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #0087b1;
+}
+
+#radius{
+    border-radius: 25px;
+    border: 1px solid greenyellow;
+}

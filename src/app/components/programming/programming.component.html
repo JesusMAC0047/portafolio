@@ -1,1 +1,44 @@
-<p>programming works!</p>
+<div class="programming divMain">
+    <h1>Programación</h1>
+    <hr>
+    <div class="table" id="radius">
+        <ul class="list-group" id="radius">
+            <li class="list-group-item titleTable">Lenguajes</li>
+            <li class="list-group-item itemTable" *ngFor="let lenguaje of lenguajes">
+                <strong>{{ lenguaje }}</strong> 
+            </li>
+          </ul>
+    </div>
+    <div class="table" id="radius">
+        <ul class="list-group" id="radius">
+            <li class="list-group-item titleTable">Frameworks</li>
+            <li class="list-group-item itemTable" *ngFor="let framework of frameworks">
+                <strong>{{ framework }}</strong>
+            </li>
+          </ul>
+    </div>
+    <div class="table" id="radius">
+        <ul class="list-group" id="radius">
+            <li class="list-group-item titleTable">Base de datos</li>
+            <li class="list-group-item itemTable" *ngFor="let data of dataBases">
+                <strong>{{ data }}</strong>
+            </li>
+          </ul>
+    </div>
+    <div class="table" id="radius">
+        <ul class="list-group" id="radius">
+            <li class="list-group-item titleTable">Enmaquetado</li>
+            <li class="list-group-item itemTable" *ngFor="let enmaquetado of enmaquetados">
+                <strong>{{ enmaquetado }}</strong>
+            </li>
+          </ul>
+    </div>
+    <div class="table">
+        <ul class="list-group" id="radius">
+            <li class="list-group-item titleTable">Otros</li>
+            <li class="list-group-item itemTable" *ngFor="let otro of otros">
+                <strong>{{ otro }}</strong>
+            </li>
+          </ul>
+    </div>
+</div>
