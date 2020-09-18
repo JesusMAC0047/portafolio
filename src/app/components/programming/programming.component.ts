@@ -37,7 +37,8 @@ export class ProgrammingComponent implements OnInit {
     this.enmaquetados = [
       'CSS',
       'HTML',
-      'Bootstrap 4'
+      'Bootstrap 4',
+      'Wordpress'
     ];
     
     this.otros = [

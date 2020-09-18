@@ -1,0 +1,18 @@
+.tableContact{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tableContact tr{
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.tableContact tr td{
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+}
