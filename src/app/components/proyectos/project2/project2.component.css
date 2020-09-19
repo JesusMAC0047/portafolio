@@ -1,0 +1,33 @@
+.project{
+    text-align: center;
+}
+
+.carouselProyect{
+    height: 300px;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.list_projects{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.list-group{
+    border: 0px;
+    float: center;
+    background-color: transparent;
+}
+
+.itemTable{
+    background-color: transparent;
+    border: 0px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+img{
+    border-radius: 20px;
+}

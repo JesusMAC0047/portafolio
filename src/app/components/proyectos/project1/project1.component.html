@@ -26,13 +26,20 @@
   </div>
   <div class="descripcion">
     <p>
-    
+      {{ descripcion }}
     </p>
+    <div class="list_projects">
     <p>
-    
+      Algunas tecnologias en este proyecto:
     </p>
-    <p>
-    
-    </p>
+      <ul class="list-group" id="radius">
+        <li class="list-group-item itemTable" *ngFor="let tecnologias of list">
+          <strong>{{ tecnologias }}</strong>
+        </li>
+      </ul>
+    </div>
+    <div class="div_github">
+      <button type="button" class="btn btn-info btn-github">{{ github }}</button>
+    </div>
   </div>
 </div>

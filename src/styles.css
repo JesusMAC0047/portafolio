@@ -125,6 +125,19 @@ p{
     height: auto;
 }
 
+.div_github{
+    width: 100%;
+    height: auto;
+    border: 20px;
+    margin-top: 30px;
+}
+
+.btn-github{
+    width: 100%;
+    background-color: #15a9d6;
+    padding: 10px;
+}
+
 footer{
     font-family: helvetica,Arial;
     color: white;
