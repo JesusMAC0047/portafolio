@@ -1,0 +1,14 @@
+.project{
+    text-align: center;
+}
+
+.carouselProyect{
+    height: 300px;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+img{
+    border-radius: 20px;
+}
