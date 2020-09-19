@@ -105,7 +105,6 @@ p{
     border-radius: 40px;
     padding-top: 0px;
     padding: 25px;
-    min-height: 500px;
 }
 
 .time{
@@ -138,4 +137,26 @@ footer{
     padding-right: 25px;
     line-height: 50px;
     border-radius: 0px 0px 20px 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
 }
