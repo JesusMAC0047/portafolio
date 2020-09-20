@@ -24,8 +24,8 @@ export class Project2Component implements OnInit {
   
     this.descripcion = `
       Este proyecto fue el primero que hize para incluir todos mis conocimientos en un proyecto grande, fue creado
-      como un proyecto para mi ultimo cuatrimestre en la universidad donde se tenia que incluir una base
-      de datos, decidi usar solamente PHP sin ningun framwork 
+      como un proyecto para mi ultimo cuatrimestre en la universidad usando solamente PHP sin incluir ningun
+      framework.
     `;
   }
 
