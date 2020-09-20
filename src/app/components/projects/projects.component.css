@@ -2,13 +2,16 @@
     border: 1px solid greenyellow;
     border-radius: 25px;
     margin: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
     text-align: center;
+    height: auto;
+    display: inline-block;
 }
 
 .MainImg{
-    height: 150px;
-    width: 300px;
+    max-height: 150px;
+    max-width: 300px;
     display: inline-block;
     margin-right: 50px;
 }
@@ -19,8 +22,8 @@
 }
 
 .info{
-    height: 150px;
-    width: 250px;
+    max-height: 150px;
+    max-width: 250px;
     text-align: center;
     float: right;
     margin-right: 75px;
@@ -29,11 +32,12 @@
 
 button{
     height: auto;
-    width: 200px;
+    max-width: 200px;
     text-align: center;
     padding: 10px;
     margin: 10px;
     border-radius: 50px;
+    display: inline-flex;
 }
 
 a{   

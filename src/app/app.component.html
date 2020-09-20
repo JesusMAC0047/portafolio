@@ -1,22 +1,22 @@
-<section id="global">
+<section class="container" id="global">
   <header>
-    <div id="logo">
+    <div class="container" id="logo">
       Jesus Anaya Portafolio
     </div>
   </header>
   <div class="clearfix"></div>
-  <nav id="menu">
+  <nav class="container col-md-12 col-sm-12" id="menu">
     <ul>
       <li><a [routerLink]="['/sobre-mi']">Inicio</a></li>
       <li><a [routerLink]="['/proyectos']">Proyectos</a></li>
       <li><a [routerLink]="['/contacto']">Contacto</a></li>
     </ul>
   </nav>
-  <section id="content">
+  <section class="container" id="content">
     <router-outlet></router-outlet>
   </section>
   <div class="clearfix"></div>
 </section>
-<footer>
+<footer class="container">
   Hecho por &copy;Jesus Misael Anaya Camacho, 2020 Email: jesus0047_mac@outlook.com
 </footer>
