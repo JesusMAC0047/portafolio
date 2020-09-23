@@ -1,13 +1,20 @@
+.center{
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
 .table{
     display: inline-block;
     height: auto;
     width: auto;
     padding: 0px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 4vh;
+    margin-right: 4vh;
     margin-bottom: 10px;
     margin-top: 15px;
-    border-color: red;
     text-align: center;
     font-family: Helvetica, Arial;
     font-size: 20px;
@@ -22,9 +29,11 @@
     background-color: rgba(255, 255, 255, 0.5);
     color: #0087b1;
     font-family: 'Crimson Text', serif;
+    height: auto;
+    width: auto;
 }
 
 #radius{
     border-radius: 25px;
-    border: 1px solid greenyellow;
+    height: auto;
 }
