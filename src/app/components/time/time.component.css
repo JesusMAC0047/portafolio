@@ -19,3 +19,20 @@ p{
     background-color: rgba(98, 109, 112, 0.75);
     padding: 15px;
 }
+
+@media (max-width: 800px) {
+
+    p{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    p{
+        width: 100%;
+        font-size: 20px;
+    }
+}
