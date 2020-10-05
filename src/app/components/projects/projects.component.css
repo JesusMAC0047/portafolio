@@ -10,8 +10,8 @@
 }
 
 .MainImg{
-    max-height: 150px;
-    max-width: 300px;
+    height: 150px;
+    width: 300px;
     display: inline-block;
     margin-right: 50px;
 }
@@ -22,8 +22,8 @@
 }
 
 .info{
-    max-height: 150px;
-    max-width: 250px;
+    height: 150px;
+    width: 250px;
     text-align: center;
     float: right;
     margin-right: 75px;
@@ -32,7 +32,7 @@
 
 button{
     height: auto;
-    max-width: 200px;
+    width: 200px;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -47,4 +47,57 @@ a{
 
 img{
     border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+
+    .project h2{
+        font-size: 30px;
+    }
+
+    .project{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .MainImg{
+        display: block;
+        width: 100% !important;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        max-height: auto !important;
+        float: none !important;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    
+    .info{
+        display: block;
+        width: 100%;
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        float: none !important;
+        position: relative;
+    }
+    
+    button{
+        width: 80%;
+        display: block !important;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        margin-left: 47%;
+        transform: translateX(-50%);
+    }
+    
+    button a{
+        text-align: center;
+    }
 }
