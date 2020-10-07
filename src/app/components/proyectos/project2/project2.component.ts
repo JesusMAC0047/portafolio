@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Project2Component implements OnInit {
 
-  title: string;
-  descripcion: string;
-  list: string [];
-  github: string;
+  private title: string;
+  private descripcion: string;
+  private list: string [];
+  private github: string;
   
   constructor() { }
 
@@ -24,7 +24,7 @@ export class Project2Component implements OnInit {
   
     this.descripcion = `
       Este proyecto fue el primero que hize para incluir todos mis conocimientos en un proyecto grande, fue creado
-      como un proyecto para mi ultimo cuatrimestre en la universidad usando solamente PHP sin incluir ningun
+      como un proyecto para mí ultimo cuatrimestre en la universidad usando solamente PHP sin incluir ningún
       framework.
     `;
   }

@@ -8,7 +8,7 @@ import * as moment from 'moment';
 })
 export class TimeComponent implements OnInit {
 
-  currentTime: string;
+  private currentTime: string;
   
   constructor() {}
 
