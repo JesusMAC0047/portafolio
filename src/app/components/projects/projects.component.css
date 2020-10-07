@@ -40,10 +40,11 @@ button{
     display: inline-flex;
 }
 
-a{   
+button a{   
     color: black !important;
     text-decoration: none;
-    text-align: center;
+    text-align: center !important;
+    font-size: 20px;
 }
 
 img{

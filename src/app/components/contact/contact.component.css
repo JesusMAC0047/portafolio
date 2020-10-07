@@ -24,3 +24,10 @@ h2{
     margin-right: 5px;
     font-size: 20px;
 }
+
+@media (max-width: 576px) {
+
+    .divDatos{
+        font-size: 15px;
+    }
+}

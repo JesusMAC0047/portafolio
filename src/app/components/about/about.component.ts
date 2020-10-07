@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
     this.title = "Sobre mí";
     this.paraghap = `
       Buen día, les cuento un poco sobre mí, hace poco tiempo termine la universidad con la 
-      licenciatura de sistemas computacionales, en este portafolio les dare a conozer los
+      licenciatura de sistemas computacionales, en este portafolio les dare a conocer los
       lenguajes y frameworks que se manejar y un poco de proyectos que he desarrollado para 
       poner a prueba mis conocimientos.
     `;
