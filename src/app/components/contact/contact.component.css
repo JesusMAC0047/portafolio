@@ -1,21 +1,22 @@
-.tableContact{
+.divContacto{
     display: inline-block;
-    margin: 0 auto;
-    font-family: 'Crimson Text', serif, Helvetica, Arial;
+    width: 100%;
+    height: auto;
 }
 
-.tableContact tr{
-    border-radius: 25px;
-    margin: 5px;
+h2{
+    text-align: justify;
+}
+
+.divDatos{
+    display: flow-root;
+    width: 50%;
+    height: auto;
     padding: 10px;
-}
-
-.tableContact tr td{
+    float: left;
     color: whitesmoke;
-    margin: 5px;
-    padding: 10px;
-    padding-right: 30px;
-    font-size: 20px;
+    text-align: left;
+    font-family: 'Crimson Text', serif, Helvetica, Arial;
 }
 
 .dato{
