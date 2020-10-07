@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgrammingComponent implements OnInit {
 
-  private lenguajes: string[];
-  private frameworks: string[];
-  private dataBases: string[];
-  private enmaquetados: string[];
-  private otros: string[];
+  public lenguajes: string[];
+  public frameworks: string[];
+  public dataBases: string[];
+  public enmaquetados: string[];
+  public otros: string[];
 
   constructor() {
   

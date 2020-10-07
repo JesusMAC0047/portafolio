@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   
-  title: string;
-  paraghap: string;
+  public title: string;
+  public paraghap: string;
   
   constructor() {
     this.title = "Sobre mí";

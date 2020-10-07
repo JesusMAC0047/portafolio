@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Project2Component implements OnInit {
 
-  private title: string;
-  private descripcion: string;
-  private list: string [];
-  private github: string;
+  public title: string;
+  public descripcion: string;
+  public list: string [];
+  public github: string;
   
   constructor() { }
 
