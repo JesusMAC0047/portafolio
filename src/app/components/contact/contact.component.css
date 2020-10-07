@@ -28,6 +28,7 @@ h2{
 @media (max-width: 576px) {
 
     .divDatos{
+        width: 100%;
         font-size: 15px;
     }
 }
