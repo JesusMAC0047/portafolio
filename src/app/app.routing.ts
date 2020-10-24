@@ -7,6 +7,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { Project1Component } from './components/proyectos/project1/project1.component';
 import { Project2Component } from './components/proyectos/project2/project2.component';
+import { Project3Component } from './components/proyectos/project3/project3.component';
 
 const appRoutes: Routes = [
     {path: '', component: AboutComponent},
@@ -15,6 +16,7 @@ const appRoutes: Routes = [
     {path: 'contacto', component: ContactComponent},
     {path: 'proyecto1', component: Project1Component},
     {path: 'proyecto2', component: Project2Component},
+    {path: 'proyecto3', component: Project3Component},
     {path: '**', component: AboutComponent}
 ];
 

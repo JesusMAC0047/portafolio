@@ -11,6 +11,7 @@ import { TimeComponent } from './components/time/time.component';
 import { ProgrammingComponent } from './components/programming/programming.component';
 import { Project1Component } from './components/proyectos/project1/project1.component';
 import { Project2Component } from './components/proyectos/project2/project2.component';
+import { Project3Component } from './components/proyectos/project3/project3.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Project2Component } from './components/proyectos/project2/project2.comp
     TimeComponent,
     ProgrammingComponent,
     Project1Component,
-    Project2Component
+    Project2Component,
+    Project3Component
   ],
   imports: [
     BrowserModule,

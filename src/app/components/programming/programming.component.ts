@@ -38,7 +38,8 @@ export class ProgrammingComponent implements OnInit {
       'CSS',
       'HTML',
       'Bootstrap 4',
-      'Wordpress'
+      'Wordpress',
+      'SASS'
     ];
     
     this.otros = [
